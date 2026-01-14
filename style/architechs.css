@@ -131,5 +131,20 @@ main{
 .fact-description{
     max-width: 540px;
 }
+.section-title{
+    margin-top: 130px;
+}
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-company img{
+    filter: grayscale(100%);
+}
 
 
